@@ -1,0 +1,25 @@
+form{
+    color:whitesmoke; 
+}
+
+body{
+    background:url("./Shanghai-China.jpg");
+    background-size:80%;
+    background position:-200px,0px;
+ 
+}
+
+.container{
+    width: 400px;
+    margin:100px auto 0px auto;
+    background-color:rgba(0,0,0,0.5) ;
+    border-radius:20px ;
+    padding: 40px;
+}
+
+h2{
+    align-items: center;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    color: whitesmoke;
+}

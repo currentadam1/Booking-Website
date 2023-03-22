@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+<h2>Passenger</h2>
+    <form>
+        <div>
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder= "e.g John" required>
+        </div>
+        <br><br>
+
+        <div>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" placeholder= "e.g Adam" required>
+        </div>
+        <br><br>
+        <div>
+
+        <label for="age">Date of Birth:</label>
+        <input type="date" id="dob" required>
+    </div>
+    </form>
+    <br>
+    <br>
+
+    <h2><i>Travel information</i></h2>
+    <form>
+
+        <label for="leaving from"> Leaving from:</label>
+        <input type="text" id="LF" placeholder="e.g Nigeria" required>
+        &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <label for="going to">Going to:</label>
+        <input type="text" id="GT" placeholder="e.g London" required>
+        &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <label for="class">Class:</label>
+        <select id="class" name="Class">
+            <option value="nil">Nil</option>
+            <option value="First"> First class</option>
+            <option value="business">Business Class</option>
+            <option value="Economy">Economy Class</option>
+         </select>
+         &nbsp; &nbsp; &nbsp;
+    </form>
+    <br>
+    <br>
+    
+    <form>
+        <div>
+            <label for="period from">Period from:</label>
+            <input type="datetime-local" id="PF" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="period to">Period to:</label>
+            <input type="datetime-local" id="PT" required>
+        </div>
+    </form> 
+    </div>
+</body>
+
+</html>
